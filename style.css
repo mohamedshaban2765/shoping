@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+/* start nav  */
+nav .motg {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.motg .qqq .ws {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 20px;
+}
+.motg .qqq .ws input {
+    border: none;
+    position: relative;
+    padding: 7px 16px 9px 36px;
+    outline: none;
+}
+.motg .qqq .ws img {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+.motg .sss{
+    border: 2px solid black;
+    margin-right: 50px;
+}
+.motg .sss h3{
+    margin: 10px;
+}
+.motg .aaa {
+    margin-right: 80px;
+}
+nav .trew{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.trew a{
+    padding: 15px ;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.765);
+}
+.trew .link-home{
+    color: rgb(137, 52, 216);
+}
+/* ent nav */
+@media (min-width: 380px) and (max-width: 992px){
+    .motg .qqq {
+        width: 130px;
+    }
+    .motg .sss h3{
+        width: 150px;
+    }
+    .trew a{
+        font-size: 9px;
+        width: 90px;
+    }
+}
+/* start section(mohamed) */
+ .mohamed {
+    height: 500px;
+   display: flex;
+   flex-direction: row;
+   background-image: url(image/hero_1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+}
+.mohamed .pragraf{
+    position: absolute;
+    left: 780px;
+    top: 250px;
+}
+.mohamed .pragraf h1{
+    font-size: 40px;
+}
+.mohamed .pragraf p{
+    font-size: 17px;
+}
+.mohamed .pragraf input{
+    padding: 10px 25px;
+    background-color: rgba(137, 43, 226, 0.797);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+.pragraf .dfg:hover{
+    transition: all 1s ease;
+    background-color: rgb(138, 28, 241);
+    transform: scale(1.1);
+}
+/* ent section(mohamed) */
+/* start section(shaban) */
+.shaban{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 40px;
+    padding: 10px 60px;
+}
+/* ent section(shaban) */
+/* :start section(clothes) */
+.clothes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 20px 20px;
+}
+.clothes .women{
+    position: relative;
+}
+.women .nmb  :hover{
+    transition: all 1s ease;
+    transform: scale(1.06);
+}
+.clothes .women .trfg{
+    /* color: rgb(255, 255, 255); */
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+.clothes .women .trfg h1{
+    font-size: 30px;
+}
+.clothes .girl{
+    position: relative;
+}
+.girl .pllk :hover{
+    transition: all 1s ease;
+    transform: scale(1.06);
+}
+.clothes .girl .hgjn{
+    /* color: rgb(229, 224, 224); */
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+.clothes .girl .hgjn h1{
+    font-size: 30px;
+}
+.clothes .men{
+    position: relative;
+}
+.men .cvbfg :hover{
+    transition: all 1s ease;
+    transform: scale(1.06);
+}
+.clothes .men .qaswx{
+    /* color: rgb(255, 255, 255); */
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+.clothes .men .qaswx h1{
+    font-size: 30px;
+}
+/* ent section(clothes) */
+/* start section(table-shart) */
+.table-shart{
+    height: 550px;
+    margin-top: 60px;
+    background-color: rgb(245, 243, 251);
+    
+}
+.table-shart .sxza h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+.table-shart .knml{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+.table-shart .knml .shart{
+    height: 330px;
+    margin: 20px 15px;
+    background-color: rgb(255, 255, 255);
+}
+.table-shart .knml .shart .poikl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.table-shart .knml .shart .poikl h3{
+    color: rgb(187, 34, 210);
+}
+.knml .shart .poikl p{
+    color: rgb(187, 34, 210);
+}
+.table-shart .knml .shose{
+    height: 330px;
+    margin: 20px 15px;
+    background-color: rgb(255, 255, 255);
+}
+.knml .shose .fvdcgh{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.shose .fvdcgh h3{
+    color: rgb(187, 34, 210);
+}
+.shose .fvdcgh p{
+    color: rgb(187, 34, 210);
+}
+.table-shart .knml .math{
+    height: 330px;
+    margin: 20px 15px;
+    background-color: rgb(255, 255, 255);
+}
+.knml .math .fvgbhn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.math .fvgbhn h3{
+    color: rgb(187, 34, 210);
+}
+.math .fvgbhn p{
+    color: rgb(187, 34, 210);
+}
+/* ent section(table-shart) */
+/* start section(Bigsale) */
+.Bigsale{
+    height: 450px;
+    margin-top: 60px;
+}
+.Bigsale .hgfkl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.Bigsale .xzcvb {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+.Bigsale .xzcvb .photo{
+    margin: 20px 20px;
+}
+.Bigsale .xzcvb .leter{
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.Bigsale .xzcvb .leter h2{
+    font-size: 27px;
+    margin-left: 60px;
+    color: rgb(187, 34, 210);
+}
+.Bigsale .xzcvb .leter h5{
+    margin-left: 90px;
+}
+.Bigsale .xzcvb .leter h5 span{
+    color: rgb(187, 34, 210);
+}
+.Bigsale .xzcvb .leter button{
+    background-color: rgb(134, 15, 152);
+    color: rgb(255, 255, 255);
+    padding: 8px 12px;
+    border: none;
+    margin-left: 140px;
+}
+.xzcvb .leter button:hover{
+    transition: all 1s ease;
+    transform: scale(1.09);
+}
+/* ent section(Bigsale) */
+/* start section() */
+footer{
+    display: flex;
+    flex-direction: row;
+}
+.Navig{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.Navig .ytrfgh{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.Navig .ytrfgh .onw{
+    padding: 10px  0px 60px;
+}
+.Navig .ytrfgh .tow{
+    padding: 10px 60px;
+}
+.Navig .ytrfgh .they{
+    padding: 10px 50px;
+}
+.prom{
+    margin-top: 50px;
+}
+.prom .trdcvb{
+    margin-top: 20px;
+}
+.prom .trdcvb .hgjj{
+    margin-top: 20px;
+}
+.prom .trdcvb .hgjj p span{
+    color: rgb(153, 14, 141);
+}
+
+
+
+
+
+
+/* ent section() */
+
